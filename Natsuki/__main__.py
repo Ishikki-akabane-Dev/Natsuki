@@ -95,8 +95,8 @@ buttons = [
     ],
     [
         InlineKeyboardButton(
-            text="➕ Add To Me Your Group ➕",
-            url="t.me/Lufy9bot?startgroup=true",
+            text="➕ Add Me To Your Group ➕",
+            url="t.me/Ruka0XDbot?startgroup=true",
         ),
     ],
 ]
@@ -233,7 +233,13 @@ def start(update: Update, context: CallbackContext):
             )
     else:
         update.effective_message.reply_text(
-            "I'm awake already!\n<b>Haven't slept since:</b> <code>{}</code>".format(
+            " f"Hello {mention_html(user.id, user.first_name)}, I'm {bot.first_name}\n\n"
+               f"┏━━━━━━━━━━━━━━━━━━━\n"
+               f"┣[• Owner : @{OWNER_USERNAME}  \n"
+               f"┣[• Uptime : {uptime} \n"
+               f"┣[• Core : {psutil.cpu_percent()}%\n"
+               f"┣[• Python   : Ver {python_version()} \n"
+               f"┗━━━━━━━━━━━━━━━━━━━".format(
                 uptime
             ),
             parse_mode=ParseMode.HTML,
@@ -369,7 +375,7 @@ def Natsuki_about_callback(update, context):
     query = update.callback_query
     if query.data == "aboutmanu_":
         query.message.edit_text(
-            text=f"* Hi There  The name's {dispatcher.bot.first_name} \n\nAs  You I'm a next generational group management bot developed by Natsuki Updates.* "
+            text=f"* Hi There  The name's {dispatcher.bot.first_name} \n\nAs  Yoo I'm a next generational group management bot developed by Natsuki Updates.* "
             f"\n\n Join [NatsukiUpdates](https://t.me/Natsuki_Updates) To Keep Yourself Updated About {dispatcher.bot.first_name}"
             f"\n\n I have the normal GROUP MANAGING functions like flood control, a warning system etc but I mainly have the advanced and handy Antispam system and the SIBYL banning system which safegaurds and helps your group from spammers."
             f"\n\nI Can Manage Your Groups Smoothly, With Some Special Features"
@@ -403,7 +409,7 @@ def Natsuki_about_callback(update, context):
         query.message.edit_text(
             text=f"* ｢ BASIC HELP 」*"
             f"\nIf You Can Also Add {dispatcher.bot.first_name} To Your Chats By Clicking [Here](http://t.me/{dispatcher.bot.username}?startgroup=true) And Selecting Chat. \n"
-            f"\n\nYou Can get support {dispatcher.bot.first_name} by joining [Natsuki Support](https://t.me/NatsukiSupport_Official).\n"
+            f"\n\nYou Can get support by joining [Ruka Support group](https://t.me/suppportXD).\n"
             f"",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
@@ -803,7 +809,7 @@ def main():
 
     if SUPPORT_CHAT is not None and isinstance(SUPPORT_CHAT, str):
         try:
-            dispatcher.bot.sendMessage(f"@{SUPPORT_CHAT}", "I am now online ❤")
+            dispatcher.bot.sendMessage(f"@{SUPPORT_CHAT}", "I am now online ❤\nThe bot running smoothly like before (◍•ᴗ•◍)")
         except Unauthorized:
             LOGGER.warning(
                 "Bot isnt able to send message to support_chat, go and check!"
