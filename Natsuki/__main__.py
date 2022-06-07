@@ -62,7 +62,7 @@ from Natsuki.modules.helper_funcs.chat_status import is_user_admin
 from Natsuki.modules.helper_funcs.misc import paginate_modules
 from Natsuki.modules.helper_funcs.readable_time import get_readable_time
 
-PM_START_TEXT = """ᏦϴΝΝᏆᏟᎻᏆᏔᎪ !! (◍•ᴗ•◍)
+PM_START_TEXT = """ᏦϴΝΝᏆᏟᎻᏆᏔᎪ !! (◍•ᴗ•◍) (https://te.legra.ph/file/7bd18e2d1345f6705f41b.jpg)
 ⊰᯽⊱┈─╌❊ - ❊╌─┈⊰᯽⊱
 ʜᴏɪ {} sᴀɴ, ɪ'ᴍ ʀᴜᴋᴀ sᴀʀᴀsʜɪɴᴀ, ʜᴀᴊɪᴍᴇᴍᴀsʜɪᴛᴇ! [✨]
 ⊰᯽⊱┈─╌❊ - ❊╌─┈⊰᯽⊱
@@ -308,7 +308,7 @@ def help_button(update, context):
         if mod_match:
             module = mod_match.group(1)
             text = (
-                "*⚊❮❮❮❮ ｢  Help  for  {}  module 」❯❯❯❯⚊*\n".format(
+                "*⚊❮❮❮ ｢ Help for {} module」❯❯❯⚊*\n".format(
                     HELPABLE[module].__mod_name__
                 )
                 + HELPABLE[module].__help__
