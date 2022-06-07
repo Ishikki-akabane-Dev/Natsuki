@@ -62,9 +62,18 @@ from Natsuki.modules.helper_funcs.chat_status import is_user_admin
 from Natsuki.modules.helper_funcs.misc import paginate_modules
 from Natsuki.modules.helper_funcs.readable_time import get_readable_time
 
-PM_START_TEXT = """
-👋 Hey There, My Name is [Luffy](https://telegra.ph/file/569aa1e3bf22d56900605.jpg). 
-I'm a Powerfull Group Manager Bot With Cool Modules. feel free to add me to your groups!
+PM_START_TEXT = """ᏦϴΝΝᏆᏟᎻᏆᏔᎪ !! (◍•ᴗ•◍)
+⊰᯽⊱┈─╌❊ - ❊╌─┈⊰᯽⊱
+ʜᴏɪ {} sᴀɴ, ɪ'ᴍ ʀᴜᴋᴀ sᴀʀᴀsʜɪɴᴀ, ʜᴀᴊɪᴍᴇᴍᴀsʜɪᴛᴇ! [✨]
+⊰᯽⊱┈─╌❊ - ❊╌─┈⊰᯽⊱
+ɪ'ᴍ ᴀɴ ᴀɴɪᴍᴇ ᴛʜᴇᴍᴇᴅ ᴀᴅᴠᴀɴᴄᴇ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ. ɪ ʜᴀᴠᴇ ʟᴏᴛs ᴏғ ʜᴀɴᴅʏ ғᴇᴀᴛᴜʀᴇs sᴜᴄʜ ᴀs:
+❍ Wᴀrning sysᴛᴇʍ.
+❍ Flᴏᴏd ᴄᴏnᴛrᴏl sysᴛᴇʍ.
+❍ Nᴏᴛᴇ ᴋᴇᴇᴩing sysᴛᴇʍ.
+❍ Filᴛᴇrs ᴋᴇᴇᴩing sysᴛᴇʍ.
+❍ Aᴩᴩrᴏvᴀls ᴀnd ʍuᴄh ʍᴏrᴇ.
+━━━•❅•°•❈ - •°•❅•━━━
+*Add Mᴇ Tᴏ Yᴏur Grᴏuᴩ Wiᴛh Full Righᴛs Tᴏ Sᴇᴇ My Pᴏwᴇr Tᴏ Iᴛ's Full Exᴛᴇnᴛ.*
 """
 
 buttons = [
