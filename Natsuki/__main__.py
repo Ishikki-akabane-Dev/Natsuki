@@ -103,15 +103,8 @@ buttons = [
 
 NATSUKI_IMG = "https://te.legra.ph/file/7bd18e2d1345f6705f41b.jpg"
 
-HELP_STRINGS = f"""
-*Main Commands :* [🤖](https://telegra.ph/file/4e0aa7dd682bde7c5caa7.jpg)
-
-/start: Starts me! You've probably already used this.
-/help: Click this, I'll let you know about myself!
-/donate: You can support my creater using this command.
-/settings: 
-   in PM: will send you your settings for all supported modules.
-   in a Group: will redirect you to pm, with all that chat's settings.
+HELP_STRINGS = f""" Hi Bᴀᴇ! I'ʍ *Ruka Sarashina*[.](https://te.legra.ph/file/81c371405ea1987d55d90.jpg)
+I'ʍ ᴀ ʍᴏdulᴀr grᴏuᴩ ʍᴀnᴀgᴇʍᴇnᴛ ʙᴏᴛ wiᴛh ᴀ fᴇw fun ᴇxᴛrᴀs! Hᴀvᴇ ᴀ lᴏᴏᴋ ᴀᴛ ᴛhᴇ fᴏllᴏwing fᴏr ᴀn idᴇᴀ ᴏf sᴏʍᴇ ᴏf ᴛhᴇ ᴛhings I ᴄᴀn hᴇlᴩ yᴏu wiᴛh.
 """.format(
     dispatcher.bot.first_name,
     "" if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n",
