@@ -79,15 +79,15 @@ PM_START_TEXT = """ᏦϴΝΝᏆᏟᎻᏆᏔᎪ !! (◍•ᴗ•◍)
 buttons = [
     [
         InlineKeyboardButton(
-            text="Luffy Logs 🙋‍♂️", url="https://t.me/luffylogs"
+            text="Bots Logs 🙋‍♂️", url="https://t.me/logsforbots"
         ),
         InlineKeyboardButton(
-            text="Support Group 💬", url="https://t.me/Luffysupportchat"
+            text="Support Group 💬", url="https://t.me/suppportXd"
         ),
     ],
     [
         InlineKeyboardButton(
-            text="Luffy news 🗒", url="https://t.me/luffyupdates"
+            text="Federation 🗒", url="https://t.me/luffyupdates"
         ),
         InlineKeyboardButton(
             text="Command Help ❓", callback_data="help_back"
