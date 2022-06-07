@@ -233,13 +233,7 @@ def start(update: Update, context: CallbackContext):
             )
     else:
         update.effective_message.reply_text(
-            " f"Hello {mention_html(user.id, user.first_name)}, I'm {bot.first_name}\n\n"
-               f"┏━━━━━━━━━━━━━━━━━━━\n"
-               f"┣[• Owner : @{OWNER_USERNAME}  \n"
-               f"┣[• Uptime : {uptime} \n"
-               f"┣[• Core : {psutil.cpu_percent()}%\n"
-               f"┣[• Python   : Ver {python_version()} \n"
-               f"┗━━━━━━━━━━━━━━━━━━━".format(
+            "I'm awake already!\n<b>Haven't slept since:</b> <code>{}</code>".format(
                 uptime
             ),
             parse_mode=ParseMode.HTML,
@@ -375,7 +369,7 @@ def Natsuki_about_callback(update, context):
     query = update.callback_query
     if query.data == "aboutmanu_":
         query.message.edit_text(
-            text=f"* Hi There  The name's {dispatcher.bot.first_name} \n\nAs  Yoo I'm a next generational group management bot developed by Natsuki Updates.* "
+            text=f"* Hi There  The name's {dispatcher.bot.first_name} \n\nAs  You I'm a next generational group management bot developed by Natsuki Updates.* "
             f"\n\n Join [NatsukiUpdates](https://t.me/Natsuki_Updates) To Keep Yourself Updated About {dispatcher.bot.first_name}"
             f"\n\n I have the normal GROUP MANAGING functions like flood control, a warning system etc but I mainly have the advanced and handy Antispam system and the SIBYL banning system which safegaurds and helps your group from spammers."
             f"\n\nI Can Manage Your Groups Smoothly, With Some Special Features"
