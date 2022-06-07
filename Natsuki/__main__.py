@@ -233,7 +233,7 @@ def start(update: Update, context: CallbackContext):
             )
     else:
         update.effective_message.reply_text(
-            "Hello, I'm {bot.first_name}[.](https://te.legra.ph/file/ebb5d2cd41cc6381192ae.mp4)\n\n┏━━━━━━━━━━━━━━━━━━━\n┣[• Owner : @{OWNER_USERNAME}\n┣[• Python   : Ver 3.10.4\n┣[• Uptime : </b> <code>{}</code>\n┗━━━━━━━━━━━━━━━━━━━".format(
+            "Hello, I'm {bot.first_name}\n\n━━━━━━━━━━━━━━━━━━━\n┣[• Python   : Ver 3.10.4\n┣[• Uptime : </b> <code>{}</code>\n━━━━━━━━━━━━━━━━━━━".format(
                 uptime
             ),
             parse_mode=ParseMode.HTML,
