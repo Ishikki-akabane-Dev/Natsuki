@@ -92,7 +92,7 @@ buttons = [
     ],
 ]
 
-NATSUKI_IMG = "https://telegra.ph/file/4e0aa7dd682bde7c5caa7.jpg"
+NATSUKI_IMG = "https://te.legra.ph/file/7bd18e2d1345f6705f41b.jpg"
 
 HELP_STRINGS = f"""
 *Main Commands :* [🤖](https://telegra.ph/file/4e0aa7dd682bde7c5caa7.jpg)
