@@ -233,7 +233,7 @@ def start(update: Update, context: CallbackContext):
             )
     else:
         update.effective_message.reply_text(
-            "Hello, I'm Ruka Sarashina\n\n━━━━━━━━━━━━━━━━━━━\n┣[• Python   : Ver 3.10.4\n┣[• Uptime : </b> <code>{}</code>\n━━━━━━━━━━━━━━━━━━━".format(
+            "I'm awake already!\n<b>Haven't slept since:</b> <code>{}</code>".format(
                 uptime
             ),
             parse_mode=ParseMode.HTML,
